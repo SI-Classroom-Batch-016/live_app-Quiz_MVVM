@@ -7,7 +7,7 @@ object DataSource {
 
     val questionList = listOf(
         Question(
-            question = "Welche Schlüsselwort wird in Kotlin verwendet, um eine Variable zu deklarieren, die nicht geändert werden kann?",
+            question = "Welches Schlüsselwort wird in Kotlin verwendet, um eine Variable zu deklarieren, die nicht geändert werden kann?",
             answers = listOf(
                 Answer("var", false),
                 Answer("let", false),

@@ -10,6 +10,7 @@
         android:id="@+id/questionTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="Frage"
         app:layout_constraintBottom_toTopOf="@+id/space"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,16 +31,18 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:layout_marginBottom="8dp"
         app:contentPadding="32dp"
         app:layout_constraintBottom_toTopOf="@+id/answerCCV"
         app:layout_constraintEnd_toStartOf="@+id/space"
         app:layout_constraintStart_toStartOf="parent">
 
-    <TextView
-        android:id="@+id/answerATV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Antwort A" />
+        <TextView
+            android:id="@+id/answerATV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="Antwort A" />
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
@@ -56,6 +59,7 @@
             android:id="@+id/answerBTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:maxLines="1"
             android:text="Antwort B" />
     </com.google.android.material.card.MaterialCardView>
 
@@ -73,6 +77,7 @@
             android:id="@+id/answerCTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:maxLines="1"
             android:text="Antwort C" />
     </com.google.android.material.card.MaterialCardView>
 
@@ -90,6 +95,7 @@
             android:id="@+id/answerDTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:maxLines="1"
             android:text="Antwort D" />
     </com.google.android.material.card.MaterialCardView>
 
